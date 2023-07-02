@@ -105,7 +105,7 @@ function startGame() {
             if (top >= 87) {
                 let left = Math.floor(Math.random() * 80) + 10;
                 asteroid.style.left = left + "%";
-                asteroid.style.top = "0%";
+                asteroid.style.top = 0 + "%";
             }
 
             if (rocketRect.left + 15 < asteroidRect.right - 15 &&
